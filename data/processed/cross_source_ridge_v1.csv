@@ -1,0 +1,4 @@
+direction,n_train,n_test,train_mean_grade,test_mean_grade,mae
+train-A->test-B,17513,8187,9.16,5.47,3.5164
+train-B->test-A,196475,61411,6.96,7.02,1.9954
+train-Bsub17k->test-A,17513,61411,6.97,7.02,2.0015

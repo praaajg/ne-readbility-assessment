@@ -1,0 +1,47 @@
+# ---> NEVER hardcode a local absolute path in any tracked file. <---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+configs/
+experiments/
+extensions/
+configs/local_paths.yaml
+dataset-ne/
+earlyexperimentations/
+ACL/
+instructions.md
+*.pdf
+*.rtf
+data/raw/
+data/interim/
+# Research manuscript and study notes (kept on disk)
+paper/
+docs/
+!docs/.gitkeep
+*.pdf
+*.rtf
+# Large data (>~10MB): ignored; small committed tables are EXCEPTED below.
+# NOTE: features_v*/scores_* stay local (112MB feature table exceeds the git
+# file-size limit) — rebuild them from the committed corpus snapshot with
+# rebuild.py (repo root), which uses only the installed library + pandas.
+data/processed/*.csv
+!data/processed/splits/.gitkeep
+!data/processed/stats_*.csv
+!data/processed/formula_*.csv
+!data/processed/comparison_*.csv
+!data/processed/pairwise_*.csv
+!data/processed/anomaly_clusters_*.csv
+!data/processed/cross_grade_*.csv
+!data/processed/cross_source_*.csv
+!data/processed/source_*.csv
+!data/processed/domain_*.csv
+!data/processed/ablation_*.csv
+!data/processed/refit_*.csv
+data/processed/models/*
+!data/processed/models/.gitkeep
+!data/processed/models/*.pkl
+!data/processed/models/*_metrics.csv
+!data/processed/models/*_importance.csv
+.DS_Store

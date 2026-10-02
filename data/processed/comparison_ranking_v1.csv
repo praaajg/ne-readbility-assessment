@@ -1,0 +1,14 @@
+name,pearson,spearman,mae,mae_lo,mae_hi,acc1,sig_worse_than_best
+model:gradboost_baseline,0.3445,0.3396,2.0709,2.059735,2.082633,0.3151,False
+formula:nci,0.2586,0.262,2.1036,2.093663,2.11317,0.2558,True
+formula:ari_np,0.2202,0.2302,2.1322,2.121944,2.141671,0.2529,True
+model:ridge_baseline,0.2704,0.3409,2.1405,2.129056,2.151716,0.2793,True
+formula:dale_np,0.16,0.1593,2.1531,2.143347,2.163001,0.2456,True
+formula:nrs,0.2227,0.2395,2.1653,2.155574,2.174442,0.2356,True
+formula:hunspell_cov,0.1357,0.1631,2.1671,2.157572,2.17716,0.2443,True
+formula:conj_ease,0.2233,0.2358,2.1753,2.165224,2.184718,0.2378,True
+formula:flesch_np,0.175,0.2012,2.1875,2.177365,2.197162,0.2323,True
+formula:fog_np,0.1488,0.1693,2.1884,2.178185,2.1981,0.2347,True
+formula:halant_ratio,0.0853,0.1258,2.1985,2.188579,2.208732,0.2315,True
+formula:matra_ease,-0.0176,0.022,2.2061,2.196054,2.216506,0.2281,True
+model:lasso_baseline,0.189,0.278,2.2139,2.200934,2.225829,0.2694,True

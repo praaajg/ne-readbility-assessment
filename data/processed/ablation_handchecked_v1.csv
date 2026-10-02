@@ -1,0 +1,61 @@
+case,kind,method,expected,got_n,match,error,text
+two-purna,sentence,naive,2,2,True,,राम स्कुल जान्छ । सीता पनि जान्छिन् ।
+two-purna,sentence,indic,2,2,True,,राम स्कुल जान्छ । सीता पनि जान्छिन् ।
+two-purna,sentence,nepali_grammar,2,2,True,,राम स्कुल जान्छ । सीता पनि जान्छिन् ।
+two-purna,sentence,npltk,2,2,True,,राम स्कुल जान्छ । सीता पनि जान्छिन् ।
+abbrev-visam,sentence,naive,1,1,True,,वि.सं. २०७८ मा पहिलो संस्करण प्रकाशित भयो ।
+abbrev-visam,sentence,indic,1,1,True,,वि.सं. २०७८ मा पहिलो संस्करण प्रकाशित भयो ।
+abbrev-visam,sentence,nepali_grammar,1,1,True,,वि.सं. २०७८ मा पहिलो संस्करण प्रकाशित भयो ।
+abbrev-visam,sentence,npltk,1,1,True,,वि.सं. २०७८ मा पहिलो संस्करण प्रकाशित भयो ।
+one-simple,sentence,naive,1,1,True,,तल दिइएका प्रश्नहरूको उत्तर देऊ ।
+one-simple,sentence,indic,1,1,True,,तल दिइएका प्रश्नहरूको उत्तर देऊ ।
+one-simple,sentence,nepali_grammar,1,1,True,,तल दिइएका प्रश्नहरूको उत्तर देऊ ।
+one-simple,sentence,npltk,1,1,True,,तल दिइएका प्रश्नहरूको उत्तर देऊ ।
+q-purna,sentence,naive,2,2,True,,के तिमी आउँछौ? म पर्खिरहेको छु।
+q-purna,sentence,indic,2,2,True,,के तिमी आउँछौ? म पर्खिरहेको छु।
+q-purna,sentence,nepali_grammar,2,2,True,,के तिमी आउँछौ? म पर्खिरहेको छु।
+q-purna,sentence,npltk,2,2,True,,के तिमी आउँछौ? म पर्खिरहेको छु।
+abbrev-doctor,sentence,naive,1,1,True,,डा. शर्मा आउनुभयो ।
+abbrev-doctor,sentence,indic,1,1,True,,डा. शर्मा आउनुभयो ।
+abbrev-doctor,sentence,nepali_grammar,1,1,True,,डा. शर्मा आउनुभयो ।
+abbrev-doctor,sentence,npltk,1,1,True,,डा. शर्मा आउनुभयो ।
+newline-no-purna,sentence,naive,varies,1,,,"मेरो नाम सिता हो
+म स्कुल जान्छु"
+newline-no-purna,sentence,indic,varies,1,,,"मेरो नाम सिता हो
+म स्कुल जान्छु"
+newline-no-purna,sentence,nepali_grammar,varies,1,,,"मेरो नाम सिता हो
+म स्कुल जान्छु"
+newline-no-purna,sentence,npltk,varies,1,,,"मेरो नाम सिता हो
+म स्कुल जान्छु"
+simple3,word,naive,3,3,True,,सीता पनि जान्छिन्
+simple3,word,nepali_grammar,3,3,True,,सीता पनि जान्छिन्
+simple3,word,npltk,3,3,True,,सीता पनि जान्छिन्
+postposition,word,naive,3,3,True,,किताब टेबलमा छ
+postposition,word,nepali_grammar,3,3,True,,किताब टेबलमा छ
+postposition,word,npltk,3,3,True,,किताब टेबलमा छ
+syll-विद्यालय,syllable,naive,4,4,True,,विद्यालय
+syll-विद्यालय,syllable,akshara,4,4,True,,विद्यालय
+syll-ज्ञान,syllable,naive,2,2,True,,ज्ञान
+syll-ज्ञान,syllable,akshara,2,2,True,,ज्ञान
+syll-विज्ञान,syllable,naive,3,3,True,,विज्ञान
+syll-विज्ञान,syllable,akshara,3,3,True,,विज्ञान
+syll-संरचना,syllable,naive,4,4,True,,संरचना
+syll-संरचना,syllable,akshara,4,4,True,,संरचना
+syll-क्षेत्र,syllable,naive,2,2,True,,क्षेत्र
+syll-क्षेत्र,syllable,akshara,2,2,True,,क्षेत्र
+syll-त्रिभुवन,syllable,naive,4,4,True,,त्रिभुवन
+syll-त्रिभुवन,syllable,akshara,4,4,True,,त्रिभुवन
+syll-स्कुल,syllable,naive,2,2,True,,स्कुल
+syll-स्कुल,syllable,akshara,2,2,True,,स्कुल
+syll-कक्षा,syllable,naive,2,2,True,,कक्षा
+syll-कक्षा,syllable,akshara,2,2,True,,कक्षा
+syll-शिक्षक,syllable,naive,3,3,True,,शिक्षक
+syll-शिक्षक,syllable,akshara,3,3,True,,शिक्षक
+syll-जान्छिन्,syllable,naive,3,2,False,,जान्छिन्
+syll-जान्छिन्,syllable,akshara,3,3,True,,जान्छिन्
+syll-स्वास्थ्य,syllable,naive,report-only,2,,,स्वास्थ्य
+syll-स्वास्थ्य,syllable,akshara,report-only,2,,,स्वास्थ्य
+syll-राष्ट्रिय,syllable,naive,report-only,3,,,राष्ट्रिय
+syll-राष्ट्रिय,syllable,akshara,report-only,3,,,राष्ट्रिय
+syll-अङ्ग्रेजी,syllable,naive,report-only,3,,,अङ्ग्रेजी
+syll-अङ्ग्रेजी,syllable,akshara,report-only,3,,,अङ्ग्रेजी

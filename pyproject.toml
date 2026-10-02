@@ -1,0 +1,48 @@
+[project]
+name = "nepali-readability"
+version = "0.1.0"
+description = "Readability assessment library for Nepali school-textbook sentences (Grade 1-10)"
+keywords = [
+  "nepali", "nepali-language", "readability", "nlp", "devanagari", "indic",
+  "grade-level", "text-analysis", "education",
+]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Developers",
+  "Intended Audience :: Education",
+  "Intended Audience :: Science/Research",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence",
+  "Topic :: Text Processing :: Linguistic",
+]
+requires-python = ">=3.10"
+# Product-only dependencies: everything the shipped scorer needs, nothing it doesn't.
+# Research tooling (pandas, scikit-learn, matplotlib, datasets, Hindi package) lives
+# in the local analysis environment, not here.
+dependencies = [
+  "pyyaml>=6.0",
+  "numpy>=1.24",
+  "scipy>=1.10",
+  "spylls>=0.1.7",
+  "nepali-grammar-tokenizer>=0.1.3",
+  "akshara-tokenizer>=1.2.0",
+  "indic-nlp-library>=0.90",
+]
+
+[project.urls]
+Homepage = "https://github.com/praaajg/ne-readbility-assessment"
+Repository = "https://github.com/praaajg/ne-readbility-assessment"
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0", "pypdf>=4.0"]
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["nepali_readability*"]
